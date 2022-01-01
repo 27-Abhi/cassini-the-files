@@ -67,10 +67,7 @@ r14r.setColor(YELLOW);
 r14r.setFill();
 r15r.setColor(YELLOW);
 r15r.setFill();
-//double a[][2]={{0,700},{50,700},{70,725},{50,750},{0,750},{0,700}};
-//double a[][2]= {{350,520},{400,520},{425,545},{400,570},{350,570},{350,520}};
-//Polygon P(400,520,a,5);
-/*increase the size of polygon later*/
+
 Text S1(400,700,"LIFT OFF FROM CAPE CANAVEREL-15 OCT 1997");
 Text Tr(400,520,"NASA");
 Tr.setColor(BLUE);
@@ -246,7 +243,7 @@ r15.setFill();
 //double a[][2]={{0,700},{50,700},{70,725},{50,750},{0,750},{0,700}};
 //double a[][2]= {{350,520},{400,520},{425,545},{400,570},{350,570},{350,520}};
 //Polygon P(400,520,a,5);
-/*increase the size of polygon later*/
+
 
 Text T(400,520,"NASA");
 T.setColor(BLUE);
@@ -358,7 +355,7 @@ c.scale(1/10);
 
 repeat(50)
 
-//add satellite opening ignition- discuss
+
 
   //check for the movement
   //Remark- still slow. shift the stars out of the loop.
@@ -387,8 +384,8 @@ wait(0.05);
 /*antenna opening successful*/
 c11.scale(1/100000);
 
-//move again and draw mars, asteriod, maybe stars
-//mars
+
+//venus=mars
 Text S3(400,700,"GRAVITY  ASSIST FROM VENUS(VENUS FLYBY)-26 APRIL 1998");
 P.move(-500,300);
 ant.move(-500,300);
@@ -447,7 +444,7 @@ P.forward(1);
 //jupiter  orbit start
 //P.left(300);
 //ant.forward(9);
-//moving planet instead of rocket
+
 //
 jup.left(55); //first goes on top
 repeat(30)
@@ -461,7 +458,7 @@ P.forward(1);
 //jup.forward(50);
 //wait(0.5);
 }
-//rev around upiter..22 orignially..scalled down to 5
+//rev around jupiter..22 orignially..scalled down to 1
 //for(int rev=0;rev<5;rev++){
 //float x=5;
 //x=x/100;//to make it look like its gaining speed after rev
@@ -548,7 +545,7 @@ P.forward(1);
 //rev around upiter..22 orignially..scalled down to 5
 //for(int rev=0;rev<5;rev++){
 //float x=5;
-//x=x/100;//to make it look like its gaining speed after rev
+//x=x/100;v
 sat.right(47);
 sat1.right(47);//stll stll are removed
 //ring.right(47);
